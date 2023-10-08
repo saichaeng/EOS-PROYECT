@@ -197,10 +197,30 @@ class EOS:
     
     #Frame 5
         
-        frame5 = LabelFrame(self.tab5, text="añasññ", font=('Impact', 14), fg='midnight blue')
+        frame5 = LabelFrame(self.tab5, text="General precautions you can take to protect yourself", font=('Impact', 14), fg='midnight blue')
         frame5.pack(fill="both", expand="yes", padx=20, pady=20)
-
-    
+        label_1 = Label(frame5, text="Stay informed", font= ("Impact", 12), fg= "midnight blue")
+        label_1.place(x=10, y=15)
+        label13 = Label(frame5, text="Keep an eye on space weather forecasts. Sign up for space weather alerts and notifications on our")
+        label13.place(x=10, y=40)
+        label13 = Label(frame5, text="program for events like solar flares and geomagnetic storms that can result from magnetic")
+        label13.place(x=10, y=58)
+        label13 = Label(frame5, text="reconnection in the Sun's atmosphere")
+        label13.place(x=10, y=75)
+        label_10 = Label(frame5, text="Mitigating communication disruptions", font= ("Impact", 12), fg= "midnight blue")
+        label_10.place(x=10, y=94)
+        label13 = Label(frame5, text="Be aware that geomagnetic storms can disrupt radio communications and GPS signals. Consider")
+        label13.place(x=10, y=115)
+        label13 = Label(frame5, text="rescheduling them during preducted geomagnetic storm activity periods.")
+        label13.place(x=10, y=134)
+        label_10 = Label(frame5, text="Power grid Protection", font= ("Impact", 12), fg= "midnight blue")
+        label_10.place(x=10, y=155)
+        label13 = Label(frame5, text=" Severe geomagnetic storms can induce electric currents in power lines and transformers,")
+        label13.place(x=10, y=175)
+        label13 = Label(frame5, text="potentially causing electrical grid disturbances or even blackouts. There isn't much an")
+        label13.place(x=10, y=195)
+        label13 = Label(frame5, text="individual can do to proyect the power grid")
+        label13.place(x=10, y=215)
     def open_tab1(self):
         self.notebook.select(self.tab1)
 
